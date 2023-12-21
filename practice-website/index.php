@@ -6,13 +6,13 @@
 </head>
 <body>
 <?php
-  require 'C:\Games\На всякий пожарный\Мои проекты\business card website\frontend\components\header.php';
+  require '..\practice-website\frontend\components\header.php';
 ?>
   <form action="/" method="GET">
     <input type="text" name="name" placeholder="Ваше имя"/>
     <input type="submit" value="Отправить"/>
     <h1>
-      <?php echo date("d.m.y");  echo 'Hello World';?>
+      <?php echo date("d.m.y");  echo '  Hello World!!!';?>
     </h1>
     
   </form>
